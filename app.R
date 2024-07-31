@@ -51,7 +51,7 @@ ui <- fluidPage(
                         uiOutput("about_tab"),
                         mainPanel(  
                             style = "position: relative; margin-top: 70px;",
-                            img(src = "almost-shiny-V1.png", width =  "65%", style = "display: block; margin-left: auto; margin-right: auto;")
+                            img(src = "img/almost-shiny-V1.png", width =  "65%", style = "display: block; margin-left: auto; margin-right: auto;")
                         ), 
                         
                ),
@@ -78,8 +78,8 @@ ui <- fluidPage(
                         br(),
                         div(
                             style = "display: flex; align-items: center;",
-                            img(src = "ubc.png", style = "width: 190px;"),
-                            img(src = "nserc.png", style = "width: 150px; margin-left: 10px;")
+                            img(src = "img/ubc.png", style = "width: 190px;"),
+                            img(src = "img/nserc.png", style = "width: 150px; margin-left: 10px;")
                         ),
                         br(),
                         HTML("<b><span style='font-size: 20px;'>How to cite this work</span></b>"),
@@ -137,7 +137,7 @@ ui <- fluidPage(
                             
                             column(width = 4, 
                                    div(style="text-align:center;",
-                                       img(src = "ove_LS.png", style = "max-width:100%; height:auto;")
+                                       img(src = "img/ove_LS.png", style = "max-width:100%; height:auto;")
                                    )
                             )
                         )),   
@@ -164,7 +164,7 @@ ui <- fluidPage(
                             
                             sliderInput("age_sm", "Age:",  min = 19, max = 50, value = c(20, 35)),
                             
-                            img(src = "j3.png", width =  "100%" )
+                            img(src = "img/j3.png", width =  "100%" )
                             
                         ), # sidebarPanel_SM
                         
@@ -201,7 +201,7 @@ ui <- fluidPage(
                             
                             sliderInput("age_fm", "Age:",  min = 19, max = 50, value = c(20, 35)),
                             
-                            img(src = "j3.png", width =  "100%" )
+                            img(src = "img/j3.png", width =  "100%" )
                             
                         ), # sidebarPanel_FM
                         
@@ -241,7 +241,7 @@ ui <- fluidPage(
                             
                             sliderInput("age", "Age:", min = 19, max = 50, value = c(20, 35)),
                             
-                            img(src = "j3.png", width =  "100%" )
+                            img(src = "img/j3.png", width =  "100%" )
                             
                         ), # sidebarPanel
                         
@@ -277,7 +277,7 @@ ui <- fluidPage(
                             
                             sliderInput("age_tm", "Age:",  min = 19, max = 50, value = c(20, 35)),
                             
-                            img(src = "j3.png", width =  "100%" )
+                            img(src = "img/j3.png", width =  "100%" )
                             
                         ), # sidebarPanel_TemP
                         mainPanel(
@@ -357,7 +357,7 @@ ui <- fluidPage(
                             ),
                             
                             sliderInput("age_RT", "Age:",  min = 19, max = 50, value = c(20, 35)),
-                            img(src = "j3.png", width =  "100%" )
+                            img(src = "img/j3.png", width =  "100%" )
                             
                         ), # sidebarPanel
                         mainPanel(
