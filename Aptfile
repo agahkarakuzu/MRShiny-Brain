@@ -1,3 +1,4 @@
+:repo:deb https://apt-archive.postgresql.org/pub/repos/apt bionic-pgdg main
 libharfbuzz-dev
 libfribidi-dev
 libfreetype6-dev
