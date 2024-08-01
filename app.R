@@ -1,26 +1,12 @@
-### MRShiny Brain
-
 # Load packages
 library(shiny)
 library(shinythemes)
-library(RNifti)
-library(ggExtra)
 library(plotly)
 library(dplyr)
-library(ggcorrplot)
 library(tidyverse)
-library(terra)
-library(bslib)
 library(shinyWidgets)
-library(thematic)
-library(showtext)
-library(ragg)
 library(ggplot2)
 library(DT)
-library(gghalves)
-library(see)
-library(markdown)
-library(reshape2)
 
 # Read in data
 ATLAS <- read.csv("data.csv", stringsAsFactors = TRUE)
