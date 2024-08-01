@@ -1,7 +1,7 @@
-
-update.packages(repos='http://cran.rstudio.com', ask=FALSE, checkBuilt=TRUE)
-my_packages = c("remotes",
-                "shiny",
+install.packages(remotes)
+library(remotes)
+remotes::system_requirements(package = "showtext", os = "ubuntu", os_release = "22.04")
+my_packages = c("shiny",
                 "shinythemes",
                 "ggExtra",
                 "plotly",
@@ -26,5 +26,5 @@ if (p %in% rownames(installed.packages()) == FALSE) {
 install.packages(p)
 }}
 invisible(sapply(my_packages, install_if_missing))
-library(remotes)
+
 remotes::install_github("jonclayden/RNifti")
