@@ -3,8 +3,6 @@ library(shiny)
 library(shinythemes)
 library(plotly)
 library(dplyr)
-library(tidyverse)
-library(shinyWidgets)
 library(ggplot2)
 library(DT)
 

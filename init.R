@@ -2,9 +2,6 @@ my_packages = c("shiny",
                 "shinythemes",
                 "plotly",
                 "dplyr",
-                "tidyverse",
-                "terra",
-                "shinyWidgets",
                 "ggplot2",
                 "DT")
 
