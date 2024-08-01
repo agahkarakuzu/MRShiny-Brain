@@ -1,6 +1,26 @@
 
 update.packages(repos='http://cran.rstudio.com', ask=FALSE, checkBuilt=TRUE)
-my_packages = c("remotes","shiny", "shinythemes", "ggExtra", "plotly", "devtools", "dplyr", "ggcorrplot","tidyverse","terra","bslib","shinyWidgets","thematic","showtext","ragg","ggplot2","DT","gghalves","see","markdown","reshape2")
+my_packages = c("remotes",
+                "shiny",
+                "shinythemes",
+                "ggExtra",
+                "plotly",
+                "dplyr",
+                "ggcorrplot",
+                "tidyverse",
+                "terra",
+                "bslib",
+                "shinyWidgets",
+                "thematic",
+                "showtext",
+                "ragg",
+                "ggplot2",
+                "DT",
+                "gghalves",
+                "see",
+                "markdown",
+                "reshape2")
+
 install_if_missing = function(p) {
 if (p %in% rownames(installed.packages()) == FALSE) {
 install.packages(p)
