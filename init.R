@@ -1,4 +1,4 @@
-install.packages(remotes)
+install.packages("remotes")
 library(remotes)
 remotes::system_requirements(package = "showtext", os = "ubuntu", os_release = "22.04")
 my_packages = c("shiny",
