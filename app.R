@@ -14,7 +14,8 @@ ATLAS <- read.csv("data.csv", stringsAsFactors = TRUE)
 # Define UI for application 
 ui <- fluidPage(
     theme = shinytheme("paper"),
-    tags$head(tags$style("#video-container { margin-top: 40px; }")),
+    tags$head(tags$style("#video-container { margin-top: 40px; }"),
+              tags$link(rel = "stylesheet", type = "text/css", href = "custom.css")),
     navbarPage("MRShiny Brain",
                tabPanel("About",
                         sidebarPanel(
@@ -222,7 +223,7 @@ ui <- fluidPage(
                                                        "Gln"= "GLN", "Glx"= "GLX", "SNR"= "SNR", "water LW" ="H20LW")
                                         
                             ),
-                            setSliderColor(c( "darkgray", "darkgray", "darkgray","darkgray", "darkgray"), c(1,2,3,4,5)),
+#                            setSliderColor(c( "darkgray", "darkgray", "darkgray","darkgray", "darkgray"), c(1,2,3,4,5)),
                             
                             sliderInput("age", "Age:", min = 19, max = 50, value = c(20, 35)),
                             

@@ -1,0 +1,17 @@
+.irs--shiny .irs-bar {
+    top: 25px;
+    height: 8px;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    background: darkgray;
+}
+
+.irs--shiny .irs-from, .irs--shiny .irs-to, .irs--shiny .irs-single {
+    color: #fff;
+    text-shadow: none;
+    padding: 1px 3px;
+    background-color: #666666;
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 1.333;
+}
