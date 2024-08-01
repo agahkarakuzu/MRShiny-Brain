@@ -4,7 +4,8 @@ my_packages = c("shiny",
                 "dplyr",
                 "ggplot2",
                 "DT",
-                "shinyWidgets")
+                "shinyWidgets",
+                "reshape2")
 
 install_if_missing = function(p) {
 if (p %in% rownames(installed.packages()) == FALSE) {
