@@ -1,6 +1,7 @@
 # Load packages
 library(shiny)
 library(shinythemes)
+library(shinyWidgets)
 library(plotly)
 library(dplyr)
 library(ggplot2)

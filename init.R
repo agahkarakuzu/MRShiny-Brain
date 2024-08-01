@@ -3,7 +3,8 @@ my_packages = c("shiny",
                 "plotly",
                 "dplyr",
                 "ggplot2",
-                "DT")
+                "DT",
+                "shinyWidgets")
 
 install_if_missing = function(p) {
 if (p %in% rownames(installed.packages()) == FALSE) {
